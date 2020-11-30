@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <title>Lower Thirds Send</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Sending CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/send.css">
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Javascript containing list of predefined names -->
+    <script type="text/javascript" src="./assets/javascript/names.js"></script>
+    <!-- Javascript to send Lower Thirds data to the Receiving end -->
+    <script type="text/javascript" src="./assets/javascript/send.js"></script>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type='text' id='name'> <br>
+            <label for="title">Title:</label><br>
+            <input type='text' id='title'><br>
+            <input type='button' onclick='set();' value="Send">
+        </form>
+    </div>
+    <div>
+        <h3>Lower Thirds List</h3>
+    </div>
+    <div>
+        <ul id="theNames">
+        <h3>Placeholder text</h3>
+        </ul>
+    </div>
+</body>
+</html>

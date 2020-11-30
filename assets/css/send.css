@@ -1,0 +1,17 @@
+input {
+    margin: 5px 0;
+}
+
+#theNames {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    width: 65%;
+}

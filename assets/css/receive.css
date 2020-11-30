@@ -1,0 +1,38 @@
+#lowerthird {
+    font-family: Arial;
+    background-color: rgb(0,0,0,.5); 
+    border-left: solid 12px rgb(6,108,55);
+    color: white;
+    padding: 20px 40px;
+    margin: 5% 10%;
+    position: absolute;
+    bottom: 0;
+    width: 1%;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    /* visibility: hidden; */
+    display: none;
+    border-radius: 10px;
+}
+
+#name {
+    font-size: 50pt;
+}
+
+#title {
+    font-size: 30pt;
+}
+
+#text {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+img {
+    height: 6em;
+    display: inline-block;
+    vertical-align: center;
+}
