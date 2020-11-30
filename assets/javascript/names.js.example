@@ -1,0 +1,17 @@
+const names = [
+    {
+        "displayName": "Person Someone",
+        "name": "Someone",
+        "title": "Person"
+    },
+    {
+        "displayName": "Some other Person",
+        "name": "Some other",
+        "title": "Person"
+    },
+    {
+        "displayName": "This Guy",
+        "name": "This Guy",
+        "title": ""
+    }
+]
