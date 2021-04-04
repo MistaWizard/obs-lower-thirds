@@ -21,7 +21,7 @@ renderButtons = () => {
 
 set = () => {
     channel.postMessage( { 
-        name: document.getElementById('name').value, title: document.getElementById('title').value 
+        name: $("#name").val(), title: $("#title").val()
     });
 };
 
