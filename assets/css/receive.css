@@ -1,5 +1,7 @@
 #lowerthird {
-    font-family: Arial;
+    /* font-family: Arial; */
+    font-family: 'OptimusPrinceps', sans-serif;
+    /* font-family: 'OptimusPrincepsSemiBold', sans-serif; */
     background-color: rgb(0,0,0,.5); 
     border-left: solid 12px rgb(6,108,55);
     color: white;
