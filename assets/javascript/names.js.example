@@ -13,5 +13,10 @@ const names = [
         "displayName": "This Guy",
         "name": "This Guy",
         "title": ""
+    },
+    {
+        "displayName": "Clear Lower Third",
+        "name": "Stop",
+        "title": "Go Away"
     }
 ]
