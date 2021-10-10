@@ -20,11 +20,6 @@ makeMyMonsterGrow = () => {
 
     setTimeout(() => {
         timeForNap();
-        // $("#lowerthird").animate({
-        //     width: '0%'
-        // }, 600).fadeOut(30);
-        // $("#name").empty();
-        // $("#title").empty();
     }, 20000);
 }
 
