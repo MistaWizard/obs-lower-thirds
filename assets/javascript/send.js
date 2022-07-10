@@ -25,6 +25,15 @@ set = () => {
     });
 };
 
+addName = () => {
+    buttonName = $("#name").val();
+    buttonTitle = $("#title").val();
+    theNewButton = $("<button>").attr("id", "buttonNames").attr("name", buttonName).attr("title", buttonTitle).text(buttonName);
+    newName = $("<li>").append(theNewButton)
+    $("#theNames").append(newName);
+    console.log(newName);
+};
+
 function sendIt() {
     buttonName = $(this).attr("name");
     buttonTitle = $(this).attr("title");
